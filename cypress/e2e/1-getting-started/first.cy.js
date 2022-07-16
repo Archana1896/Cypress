@@ -9,7 +9,7 @@ describe('TODO api testing', () => {
         cy.get('input[name="txtPassword"]').type('admin123')
         cy.get('#btnLogin').click()
         cy.get('#menu_admin_viewAdminModule').invoke('show').should('be.visible').trigger('mouseover')
-        cy.wait(2000)
+        cy.wait(5000)
     })
 })
 
