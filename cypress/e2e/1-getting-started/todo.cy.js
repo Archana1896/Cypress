@@ -12,7 +12,10 @@ describe('Flipkart test',()=>{
     cy.wait(8000);
     cy.get('input[name="q"]').type("watches").type('{enter}');
     //cy.get(".IRpwTa").first().click();
-    cy.get('._2B099V > a').first().invoke('removeAttr', 'target').click()
+    //cy.get('._2r_T1I').first().click()
+    cy.get('._2r_T1I > a').first().invoke('removeAttr', 'target').click()
+    //cy.get('._2r_T1I').first().click()
+    cy.get('._2KpZ6l._2U9uOA._3v1-ww').click().wait(3000)
     cy.go('back')
   })
 
