@@ -15,7 +15,7 @@ describe('Flipkart test',()=>{
     //cy.get('._2r_T1I').first().click()
     cy.get('._2r_T1I > a').first().invoke('removeAttr', 'target').click()
     //cy.get('._2r_T1I').first().click()
-    cy.get('._2KpZ6l._2U9uOA._3v1-ww').click().wait(3000)
+    cy.get('._2KpZ6l._2U9uOA._3v1-ww').click().wait(4000)
     cy.go('back')
   })
 })
